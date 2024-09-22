@@ -1,0 +1,19 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 09-22-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="crypto-icons">
+        <template for:each={cryptoBrokers} for:item="broker">
+            <div key={broker.id} class="crypto-card">
+                <a href={broker.signUpLink}>
+                    <img src={broker.logo} alt={broker.name}/>
+                    <div class="percentage">{broker.reserve}</div>
+                </a>
+            </div>
+        </template>
+    </div>
+</template>

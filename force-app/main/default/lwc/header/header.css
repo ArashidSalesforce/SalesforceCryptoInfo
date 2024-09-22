@@ -1,0 +1,13 @@
+.header-section {
+    text-align: center;
+    padding: 50px 0;
+    background: url('https://mindful-wolf-nyxz84-dev-ed.trailblaze.my.salesforce.com/servlet/servlet.FileDownload?file=015ak000001IGAc') no-repeat center;
+    background-size: cover;
+}
+h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+span {
+    text-decoration: underline;
+}

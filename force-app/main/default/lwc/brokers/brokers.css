@@ -1,0 +1,18 @@
+.crypto-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.crypto-card {
+    text-align: center;
+    width: 100px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.percentage {
+    font-size: 1.5rem;
+    color: green;
+    margin-top: 10px;
+}

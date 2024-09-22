@@ -1,8 +1,6 @@
 
 # 100% LWC Based Crypto Subscription and Reserve Tracking Salesforce Site
 
-https://mindful-wolf-nyxz84-dev-ed.trailblaze.my.site.com/
-
 ![image](https://github.com/user-attachments/assets/b6d026a3-9769-448c-9c66-bc16d741d4f9)
 
 

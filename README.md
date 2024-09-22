@@ -6,7 +6,7 @@ https://mindful-wolf-nyxz84-dev-ed.trailblaze.my.site.com/
 ![image](https://github.com/user-attachments/assets/b6d026a3-9769-448c-9c66-bc16d741d4f9)
 
 
-This project is a Lightning Web Component (LWC) application that allows users to subscribe to a crypto newsletter and track reserve percentages for major cryptocurrency exchanges using the Nansen API. The project integrates both client-side and server-side logic using LWC, Salesforce Apex, and third-party API integration.
+This project is a Lightning Web Component (LWC) application that allows users to subscribe to a crypto newsletter and track reserve percentages for major cryptocurrency exchanges using the Nansen API (Future Scope). The project integrates both client-side and server-side logic using LWC and Salesforce Apex.
 
 ## Table of Contents
 - [Features](#features)

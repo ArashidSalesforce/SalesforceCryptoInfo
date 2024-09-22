@@ -12,7 +12,6 @@ This project is a Lightning Web Component (LWC) application that allows users to
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Apex Controller](#apex-controller)
 - [LWC Components](#lwc-components)
 - [Nansen API Integration](#nansen-api-integration)
 - [Contributing](#contributing)
@@ -61,7 +60,6 @@ The project fetches exchange reserves from the Nansen API and displays reserve p
 - Kraken
 - Coinbase
 - Gemini
-- OKX
 
 ## Apex Controller
 

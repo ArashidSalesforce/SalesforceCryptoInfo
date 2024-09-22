@@ -1,6 +1,11 @@
 
 # Crypto Subscription and Reserve Tracking Project
 
+https://mindful-wolf-nyxz84-dev-ed.trailblaze.my.site.com/
+
+![image](https://github.com/user-attachments/assets/b6d026a3-9769-448c-9c66-bc16d741d4f9)
+
+
 This project is a Lightning Web Component (LWC) application that allows users to subscribe to a crypto newsletter and track reserve percentages for major cryptocurrency exchanges using the Nansen API. The project integrates both client-side and server-side logic using LWC, Salesforce Apex, and third-party API integration.
 
 ## Table of Contents
@@ -15,7 +20,7 @@ This project is a Lightning Web Component (LWC) application that allows users to
 
 ## Features
 - **Subscription Form**: A simple subscription form where users can enter their email and subscribe to crypto updates.
-- **Proof of Reserves Tracking**: Fetches the latest reserve percentages of major crypto exchanges (Binance, Kraken, Coinbase, etc.) using the Nansen API.
+- **Proof of Reserves Tracking**: Has the latest reserve percentages of major crypto exchanges (Binance, Kraken, Coinbase, etc.).
 - **Dynamic Success Screen**: Displays a confirmation screen after successful subscription.
 - **Responsive Design**: Uses Salesforce Lightning Design System (SLDS) for a clean and responsive user interface.
 
@@ -24,7 +29,6 @@ This project is a Lightning Web Component (LWC) application that allows users to
 ### Prerequisites
 - Salesforce Developer Org
 - Salesforce CLI
-- A Nansen API Key (for fetching exchange reserves)
 
 ### Steps
 1. Clone the repository to your local machine:
@@ -61,20 +65,9 @@ The project fetches exchange reserves from the Nansen API and displays reserve p
 
 ## Apex Controller
 
-The project uses an Apex controller to handle backend logic:
+Future Scope - The project uses an Apex controller to handle backend logic:
 - `CryptoSubscriptionController`: Manages the subscription form logic, saving user emails.
 - `CryptoReserveController`: Fetches reserve data from the Nansen API and returns it to the LWC.
-
-### Example Code for `CryptoReserveController`:
-```apex
-public with sharing class CryptoReserveController {
-    @AuraEnabled(cacheable=true)
-    public static List<ExchangeReserve> getExchangeReserves() {
-        // Logic to call the Nansen API and fetch exchange reserves
-        // Returns a list of ExchangeReserve objects
-    }
-}
-```
 
 ## LWC Components
 
@@ -84,7 +77,7 @@ This component handles user subscription:
 - Shows a success message upon successful submission
 
 ### `exchangeReserves`
-This component fetches and displays reserve percentages for major exchanges using data fetched from the backend.
+This displays reserve percentages for major exchanges using data fetched from the backend.
 
 ### Example Code for `subscribeForm.js`:
 ```javascript
@@ -102,7 +95,7 @@ export default class SubscribeForm extends LightningElement {
 }
 ```
 
-## Nansen API Integration
+## Future Scope - Nansen API Integration
 
 To track reserve percentages of major crypto exchanges, we integrate with the Nansen API. The API is used to fetch data such as reserve percentages and asset holdings for exchanges like Binance, Kraken, and more.
 
